@@ -12,7 +12,7 @@ public class TemperatureConverterFahrenheit {
     fahrenheitTemperature = scannerSystem.nextDouble();
 
     double temperatureFinal;
-    temperatureFinal = (fahrenheitTemperature - 32) * (5.0 / 9);
+    temperatureFinal = (fahrenheitTemperature - 32) / 1.8;
     System.out.println("The temperature is: " + String.format("%.2f", temperatureFinal) + "°C");
 
     scannerSystem.close();
