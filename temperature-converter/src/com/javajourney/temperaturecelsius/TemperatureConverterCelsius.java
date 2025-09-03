@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class TemperatureConverterCelsius {
 
   public static void main(String[] args) {
+     /*
+       [en] Temperature converter from Celsius to Fahrenheit
+       [pt] Conversor de temperatura de Celsius para Fahrenheit
+       */
     Scanner scannerSystem = new Scanner(System.in);
 
     double celciusTemperature;

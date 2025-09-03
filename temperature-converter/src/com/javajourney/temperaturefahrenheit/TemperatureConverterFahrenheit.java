@@ -3,6 +3,10 @@ package com.javajourney.temperaturefahrenheit;
 import java.util.Scanner;
 
 public class TemperatureConverterFahrenheit {
+  /*
+       [en] Temperature converter from Fahrenheit to Celsius
+       [pt] Conversor de temperatura de Fahrenheit para Celsius
+       */
 
   public static void main(String[] args) {
     Scanner scannerSystem = new Scanner(System.in);
