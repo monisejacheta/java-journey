@@ -12,7 +12,7 @@ public class TemperatureConverterCelsius {
     celciusTemperature = scannerSystem.nextDouble();
 
     double temperatureFinal;
-    temperatureFinal = (celciusTemperature * (9.0 / 5)) + 32;
+    temperatureFinal = (celciusTemperature * 1.8) + 32;
     System.out.println("The temperature is: " + String.format("%.2f", temperatureFinal) + "°F");
 
 
