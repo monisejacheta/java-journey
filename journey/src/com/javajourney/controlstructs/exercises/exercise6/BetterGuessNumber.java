@@ -7,7 +7,9 @@ import java.util.concurrent.ThreadLocalRandom;
 public class BetterGuessNumber {
    /*
     [en] Guessing game. The player must try to guess a number between 0-100, in 10 attempts.
-    [pt] Jogo da adivinhação. O jogador deve tentar adivinhar um número entre 0-100, em 10 tentativas.
+    Second solution, with code updates including programming improvements and modernization.
+    [pt] Jogo da adivinhação. O jogador deve tentar adivinhar um número entre 0-100, em 10 tentativas. 
+    Segunda resolução, com atualizações de código com melhorias de programação e modernização.
    */
 
   // [en] Creating constants to set the number of attempts and the maximum limit of the range
@@ -83,3 +85,4 @@ public class BetterGuessNumber {
     System.out.println("Thanks for playing!");
   }
 }
+
